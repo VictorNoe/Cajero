@@ -13,7 +13,7 @@
 
 <body>
     <div class="example-container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light" style="border: 1px black solid;">
             <div class="container-fluid">
                 <div class="col-2">
                     <img src="https://lh3.googleusercontent.com/pw/AM-JKLVvth4iNOsTaYu__kQFCepItlK7w8p6hZLYGBg-Ve6ROyOmHlSpQ7cEs3MrU8JMZDSpdP7kNGteFi-ajvjJ7Sbk4a4W7BxUZ99lBGHOAhSq0E1kKiD6K5nbLomN6wnjU1wyEX6TIaKznG8fa66RqhHC=s939-no?authuser=0"
@@ -25,10 +25,14 @@
                     </h1>
                     <h4 class="text-center">Sistema de Servicios de Cafeteria</h4>
                 </div>
-                <div class="col-2">
+                <div class="col-1">
                     <div class="justify-content-md-end">
-                        <button class="btn btn-primary me-md-2" type="button">Button</button>
-                        <button class="btn btn-primary" type="button">Button</button>
+                        <a href=""><img src="img/Regresar.png" alt="" width="80" height="80"></a>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="justify-content-md-end">
+                        <a href=""><img src="img/Salir.png" alt="" width="80" height="80"></a>
                     </div>
                 </div>
             </div>
@@ -36,23 +40,29 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-2">
-                    <div class="row" style="height: 789px;">
-                        <div class="h-20 d-inline-block" style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid;">
+                    <div class="row" style="height: 787px;">
+                        <div class="h-20 d-inline-block"
+                            style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid; color: white;">
+                            <h2>Productos</h2>
+                        </div>
+                        <div class="h-20 d-inline-block"
+                            style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid; color: white;">
+                            <h2>Edificios</h2>
+                        </div>
+                        <div class="h-20 d-inline-block"
+                            style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid; color: white;">
+                            <h2>Gestion de usuario</h2>
+                        </div>
+                        <div class="h-20 d-inline-block"
+                            style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid; color: white;">
                             <h1>hola</h1>
                         </div>
-                        <div class="h-20 d-inline-block" style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid;">
+                        <div class="h-20 d-inline-block"
+                            style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid; color: white;">
                             <h1>hola</h1>
                         </div>
-                        <div class="h-20 d-inline-block" style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid;">
-                            <h1>hola</h1>
-                        </div>
-                        <div class="h-20 d-inline-block" style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid;">
-                            <h1>hola</h1>
-                        </div>
-                        <div class="h-20 d-inline-block" style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid;">
-                            <h1>hola</h1>
-                        </div>
-                        <div class="h-20 d-inline-block" style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid;">
+                        <div class="h-20 d-inline-block"
+                            style="width: 100%; background-color: rgba(0, 148, 117); border: 1px black solid; color: white;">
                             <h1>hola</h1>
                         </div>
                     </div>
@@ -66,17 +76,18 @@
                             <h3>Postres</h3>
                         </div>
                     </div>
-                    <div class="row" style="height: 739px; border: 1px black solid; overflow: auto;">
+                    <div class="row" style="height: 737px; border: 1px black solid; overflow: auto;">
                         <div class="col-1"></div>
                         <div class="col-10">
-                            <table class="table" >
+                            <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col-1">ID</th>
-                                        <th scope="col-3">Nombre</th>
-                                        <th scope="col-1">Precio</th>
-                                        <th scope="col-1">Cantidad</th>
-                                        <th scope="col-7">Descripción</th>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Descripción</th>
+                                        <th scope="col"><button class>AÑADIR</button></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -95,60 +106,158 @@
                                         <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">2</th>
+                                        <th scope="row">1</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Rebana de pastel</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Rebana de pastel</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Rebana de pastel</td>
+                                        <td>$35</td>
+                                        <td>15</td>
+                                        <td>Pastel de chocolate</td>
                                     </tr>
                                 </tbody>
                             </table>
