@@ -1,0 +1,23 @@
+#categoriasLarge {
+    height: 787px;
+}
+
+#categorias {
+    width: 100%;
+    background-color: rgba(0, 148, 117);
+    border: 1px black solid;
+    color: white;
+    text-align: end;
+}
+
+#barraNavegacion {
+    border: 1px black solid;
+}
+
+#coloresSaferi {
+    color: rgb(173, 176, 167);
+}
+
+#categoriasAbajo {
+    
+}
